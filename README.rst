@@ -79,7 +79,7 @@ The analysis takes the following inputs:
 The analysis will consist of two stages. In the first stage, we shall process
 the original collision data (using ``demoanalyzer_cfg_level3data.py``) and
 simulated data (using ``demoanalyzer_cfg_level3MC.py``) for one Higgs signal
-candidate with with reduced statistics. In the second stage, we shall plot the
+candidate with reduced statistics. In the second stage, we shall plot the
 results (using ``M4Lnormdatall_lvl3.cc``). The ``HiggsDemoAnalyzer`` directory
 contains the analysis code plugin for the `CMSSW <http://cms-sw.github.io/>`_
 analysis framework.
