@@ -10,10 +10,10 @@ requirements:
   InitialWorkDirRequirement:
     listing:
       - $(inputs.code)
-      - $(inputs.inputs)
+      - $(inputs.data)
 
 inputs:
-  inputs:
+  data:
     type: Directory
   code:
     type: Directory
